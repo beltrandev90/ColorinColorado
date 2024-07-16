@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Crear_informe">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textNomRecibido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/cuerpo"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textApeRecibido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/cuerpo"
+                android:layout_weight="1"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/style_iconos"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageCorazon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="83dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icono_corazon" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cuerpo"
+                    android:gravity="center"
+                    android:text="Salud"
+                    android:textColor="@color/rosa"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/style_icono_verdes"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageAlimentacion"
+                    android:layout_width="89dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icono_potito2" />
+
+                <TextView
+                    android:id="@+id/textView444"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cuerpo"
+                    android:gravity="center"
+                    android:text="Alimentación"
+                    android:textColor="@color/verde2"
+                    android:textSize="19dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/style_iconos_azul"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageCuna"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icono_cuna" />
+
+                <TextView
+                    android:id="@+id/textView4444"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cuerpo"
+                    android:gravity="center"
+                    android:text="Siesta"
+                    android:textColor="@color/azul"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/style_bordes3"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgVerInforme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icono_ver_informe" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:fontFamily="@font/cuerpo"
+                    android:textColor="@color/salmon"
+                    android:text="Ver informe"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/btnAtras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/icono_atras" />
+    </LinearLayout>
+
+</LinearLayout>

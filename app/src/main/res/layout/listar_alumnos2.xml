@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Listar_alumnos2">
+
+    <TextView
+        android:id="@+id/alumno2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/tarjeta1"
+        android:fontFamily="@font/cuerpo"
+        android:paddingLeft="50dp"
+        android:paddingTop="45dp"
+        android:textSize="15dp" />
+
+</LinearLayout>

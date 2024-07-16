@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/style_bordes2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titulos"
+        android:textColor="@color/salmon"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="ABOUT ME" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/cuerpo"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_margin="5dp"
+        android:text="Colorín Colorado es una agenda digital infantil creada por centros especializados con la ayuda de padres y educadores." />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/cuerpo"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="Inma Beltrán Vega \nAndroid Studio 2023" />
+
+
+</LinearLayout>

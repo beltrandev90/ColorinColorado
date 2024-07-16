@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Ver_informe">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/titulos"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="INFORME"
+            android:textColor="@color/salmon"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textNomRecibid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/cuerpo"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textApeRecibid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/cuerpo"
+                android:layout_weight="1"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageCompartir"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icono_compartir" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textNomRecibido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cuerpo"
+            android:layout_gravity="center"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textApeRecibido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cuerpo"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/titulos"
+        android:textColor="@color/rosa"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:text="Salud" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageCorazon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/style_iconos"
+                app:srcCompat="@drawable/icono_corazon" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cuerpo"
+                    android:textSize="17dp"
+                    android:text="Estado de ánimo: " />
+
+                <TextView
+                    android:id="@+id/textResulEstadoAnimo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cuerpo"
+                    android:textColor="@color/rosa"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cuerpo"
+                    android:text="Consistencia pañal: "
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textConsistenciaPanal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/rosa"
+                    android:fontFamily="@font/cuerpo"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cuerpo"
+                    android:text="Nº cambios de pañal: "
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textResulVecesPanal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/rosa"
+                    android:fontFamily="@font/cuerpo"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titulos"
+        android:textSize="20dp"
+        android:textColor="@color/verde2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:text="Alimentación" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagePotito"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/style_icono_verdes"
+                app:srcCompat="@drawable/icono_potito2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cuerpo"
+                    android:text="Desayuno: "
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/textResulDesayuno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/verde2"
+                    android:fontFamily="@font/cuerpo"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cuerpo"
+                    android:textSize="17dp"
+                    android:text="Comida: " />
+
+                <TextView
+                    android:id="@+id/textResulComida"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/verde2"
+                    android:fontFamily="@font/cuerpo"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cuerpo"
+                    android:textSize="17dp"
+                    android:text="Merienda: " />
+
+                <TextView
+                    android:id="@+id/textResulMerienda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/verde2"
+                    android:fontFamily="@font/cuerpo"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewCuna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titulos"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/azul"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:text="Siesta" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageCuna"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/style_iconos_azul"
+                app:srcCompat="@drawable/icono_cuna" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewMo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cuerpo"
+                    android:textSize="17dp"
+                    android:text="Momento: " />
+
+                <TextView
+                    android:id="@+id/textResulMomento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/azul"
+                    android:fontFamily="@font/cuerpo"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewDu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cuerpo"
+                    android:textSize="17dp"
+                    android:text="Duración: " />
+
+                <TextView
+                    android:id="@+id/textResulDuracion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/azul"
+                    android:fontFamily="@font/cuerpo"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/btnAtras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/icono_atras" />
+    </LinearLayout>
+
+</LinearLayout>

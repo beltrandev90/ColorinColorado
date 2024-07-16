@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Salud">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/rosa"
+            android:textColor="@color/white"
+            android:fontFamily="@font/titulos"
+            android:gravity="center"
+            android:text="Salud"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textEstadoAnimo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/cuerpo"
+            android:text="Estado de Ánimo:  "
+            android:textColor="@color/rosa"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/cuerpo"
+            android:layout_weight="1"
+            style="@style/CursiveText"
+            android:textColor="@color/rosa" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageEstadoAnimo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                app:srcCompat="@drawable/icono_estado_animo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageTriste"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/icono_llorando" />
+
+            <ImageView
+                android:id="@+id/imageNeutral"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/icono_neutral" />
+
+            <ImageView
+                android:id="@+id/imageEnfadado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/icono_enfadado" />
+
+
+            <ImageView
+                android:id="@+id/imageFeliz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/icono_feliz" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textConsistencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/cuerpo"
+            android:text="Consistencia:  "
+            android:textColor="@color/rosa"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textResultado2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/cuerpo"
+            android:layout_weight="1"
+            style="@style/CursiveText"
+            android:textColor="@color/rosa" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagePañal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/icono_panal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageLiquida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/icono_l" />
+
+            <ImageView
+                android:id="@+id/imageBlanda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/icono_blanda" />
+
+            <ImageView
+                android:id="@+id/imageNormalC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/icono_normal" />
+
+            <ImageView
+                android:id="@+id/imageDura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/icono_dura" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textCambioPañal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/cuerpo"
+            android:text="Cambio de pañal:  "
+            android:textColor="@color/rosa"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textResultado3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/cuerpo"
+            android:layout_weight="1"
+            style="@style/CursiveText"
+            android:textColor="@color/rosa" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageCambioPañal"
+                android:layout_width="wrap_content"
+                android:layout_height="81dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="@drawable/icono_cambio_panal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/icono_0" />
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/icono_1" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/icono_2" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/icono_3" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSalud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Enviar Informe" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/btnAtras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/icono_atras" />
+    </LinearLayout>
+
+</LinearLayout>
