@@ -24,17 +24,6 @@ Colorin Colorado es una aplicación diseñada para profesores de guardería, des
 - XML para diseño de la interfaz de usuario.
 
 - SQLite para almacenamiento de datos local.
-## Características Principales
-
-- Gestión de Alumnos: Crear y organizar listados de alumnos por clases representadas por diferentes animales.
-
-- Informes de Salud: Registro del estado de ánimo, consistencia de la caca del pañal y número de cambios de pañales.
-
-- Alimentación: Seguimiento de la cantidad de comida ingerida durante el desayuno, comida y merienda.
-
-- Siestas: Registro de siestas, incluyendo la duración y si se realizaron por la mañana o por la tarde.
-
-- Comunicación con Padres: Enviar informes detallados a los padres o tutores mediante WhatsApp o correo electrónico.
 ## Uso
 
 - Registro de Clases y Alumnos: Los profesores pueden crear clases y añadir alumnos a cada clase, asignándoles un animal representativo.
@@ -42,6 +31,12 @@ Colorin Colorado es una aplicación diseñada para profesores de guardería, des
 - Generación de Informes: A través de una interfaz visualmente amigable, los profesores pueden registrar la salud, alimentación y siestas de cada alumno.
 
 - Envío de Informes: Una vez completados, los informes pueden ser enviados a los padres o tutores mediante WhatsApp o correo electrónico
+
+- ## Video Demostrativo
+
+![Video de la Aplicación](videos/colorincolorado.mp4)
+
+*Demostración de las funcionalidades principales de la aplicación.*
 ## Contacto
 
 Para más información, visita mi página web.
