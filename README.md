@@ -32,9 +32,9 @@ Colorin Colorado es una aplicación diseñada para profesores de guardería, des
 
 - Envío de Informes: Una vez completados, los informes pueden ser enviados a los padres o tutores mediante WhatsApp o correo electrónico
 
-- ## Video Demostrativo
+## Video Demostrativo
 
-![Video de la Aplicación](videos/colorin.mp4)
+[![Miniatura del video](https://img.youtube.com/vi/-I4mCN7nm90/maxresdefault.jpg)](https://youtu.be/-I4mCN7nm90)
 
 *Demostración de las funcionalidades principales de la aplicación.*
 ## Contacto
