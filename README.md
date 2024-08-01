@@ -34,7 +34,7 @@ Colorin Colorado es una aplicación diseñada para profesores de guardería, des
 
 - ## Video Demostrativo
 
-![Video de la Aplicación](videos/colorincolorado.mp4)
+![Video de la Aplicación](videos/colorin.mp4)
 
 *Demostración de las funcionalidades principales de la aplicación.*
 ## Contacto
